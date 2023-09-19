@@ -133,7 +133,7 @@ public class GraphV3 {
 
         int vertexFrom;
         try (Scanner scanner = new Scanner(
-                new File("E:\\programming\\projects\\practice\\prometheus_algorithms\\src\\test\\resources\\input_08.txt"))) {
+                new File("E:\\programming\\projects\\practice\\prometheus_algorithms\\src\\test\\resources\\graph_task_data"))) {
 
             while (scanner.hasNext()) {
                 vertexFrom = scanner.nextInt();
